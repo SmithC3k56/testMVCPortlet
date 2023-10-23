@@ -1,24 +1,130 @@
-# Compiled class file
+# Liferay IDE
+/.metadata/
+
+# Gradle-specific
+/.gradle/
+/build/
+/bundles/
+/gradle/wrapper/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts and temporary files
+/target/
+/build/
+/bin/
+/build.gradle
+.gradle/
+
+# Ignore Log files
+/logs/
+
+# Ignore Node.js files (if applicable)
+node_modules/
+npm-debug.log
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore Maven-specific files
+.mvn/
+
+# Ignore compiled Java classes
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Ignore compiled Java JAR files
 *.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ignore package files
+*.war
+*.ear
+
+# Ignore Spring Boot DevTools properties file
+/src/main/resources/application-dev.properties
+
+# Ignore Liferay build and deploy folders
+/build/
+/deploy/
+/liferay/
+
+# Ignore Liferay workspace specific files
+/.blade/
+/.blade-tasks/
+/.bnd/
+/liferay-plugin-package.properties
+
+# Ignore JSP, theme, and layout build folders
+/docroot/_diffs/
+/docroot/WEB-INF/tld/
+/docroot/WEB-INF/classes/
+/docroot/WEB-INF/lib/
+/docroot/WEB-INF/lib-custom/
+/docroot/WEB-INF/lib-global/
+/docroot/WEB-INF/src/
+/docroot/WEB-INF/tags/
+/docroot/WEB-INF/tld/
+/docroot/WEB-INF/velocity/
+/docroot/WEB-INF/web.xml
+
+# Ignore build output
+/docroot/_diffs/
+/docroot/_html/
+/docroot/_template/
+/docroot/html/
+/docroot/META-INF/
+
+# Ignore generated resources
+/docroot/_diffs/
+/docroot/_theme/
+/docroot/_theme*
+/docroot/_themes/
+/docroot/css/
+/docroot/fonts/
+/docroot/html/
+/docroot/images/
+/docroot/js/
+/docroot/templates/
+/docroot/WEB-INF/tld/
+/docroot/WEB-INF/classes/
+/docroot/WEB-INF/lib/
+/docroot/WEB-INF/lib-custom/
+/docroot/WEB-INF/lib-global/
+/docroot/WEB-INF/src/
+/docroot/WEB-INF/tags/
+/docroot/WEB-INF/tld/
+/docroot/WEB-INF/velocity/
+
+# Ignore log files and caches
+/docroot/_diffs/
+/docroot/_theme/
+/docroot/html/
+/docroot/WEB-INF/classes/
+/docroot/WEB-INF/src/
+/docroot/WEB-INF/tags/
+/docroot/WEB-INF/tld/
+/docroot/WEB-INF/velocity/
+
+# Ignore cache and runtime data
+/tomcat-*/
+
+# Ignore HSQLDB data
+/hsql/
+
+# Ignore compiled JSPs
+/work/
+
+# Ignore war files
+*.war
+
+# Ignore IDEA settings folder
+/.idea/
